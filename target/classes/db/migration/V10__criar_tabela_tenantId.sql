@@ -1,0 +1,10 @@
+CREATE TABLE tenant (
+    codigo BIGINT(20) PRIMARY KEY AUTO_INCREMENT,
+    tenant_id VARCHAR(50) NOT NULL UNIQUE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+
+INSERT INTO tenant VALUES (0, 'samsung');
+INSERT INTO tenant VALUES (0, 'lg');
+

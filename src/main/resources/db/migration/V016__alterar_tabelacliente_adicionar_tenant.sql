@@ -1,0 +1,2 @@
+ALTER TABLE cliente
+ ADD tenant_id VARCHAR(50) NOT NULL;

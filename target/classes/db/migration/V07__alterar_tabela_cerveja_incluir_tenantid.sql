@@ -1,0 +1,2 @@
+ALTER TABLE cerveja
+ ADD tenant_id VARCHAR(50) NOT NULL;
